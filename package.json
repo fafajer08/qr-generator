@@ -5,7 +5,8 @@
     "fs": "^0.0.1-security",
     "inquirer": "^9.3.7",
     "multer": "^1.4.5-lts.2",
-    "qr-image": "^3.2.0"
+    "qr-image": "^3.2.0",
+    "react-scripts": "^5.0.1"
   },
   "name": "2.4-qr-code-project",
   "version": "1.0.0",

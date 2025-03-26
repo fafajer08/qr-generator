@@ -37,7 +37,7 @@ app.post('/generate-qr', (req, res) => {
     qr_svg.pipe(fs.createWriteStream(qrPath));
 
     // Append URL to file
-    fs.appendFileSync('URLs.txt', `${url}\n`, 'utf8');
+    fs.appendFileSync('URL.txt', `${url}\n`, 'utf8');
 
     res.json({ success: true, qrPath: `http://localhost:${port}/qr_codes/${fileName}_qr.png` });
 
